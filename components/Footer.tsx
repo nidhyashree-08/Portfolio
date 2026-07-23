@@ -20,7 +20,8 @@ export default function Footer() {
     <footer className="relative z-10 px-4 pb-8 pt-4 sm:px-6">
       <div className="glass mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 rounded-2xl px-6 py-6 sm:flex-row">
         <p className="text-xs text-text-muted sm:text-sm">
-          &copy; {year} {profile.name}. Built with Next.js &amp; Framer Motion.
+          &copy; {year} {profile.name}. 
+          <br />All rights reserved.
         </p>
 
         <div className="flex items-center gap-3">
